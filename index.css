@@ -342,18 +342,13 @@ line-height: 104.6%;
   height: 850px;
   top: 3000px;
   grid-area: D;
-  display: grid;
-  grid-template-areas:
-   "A A A A A"
-   "B B B B B"
-   "C C E E E"
-   "D D E E E";
-
+  display: flex;
+  justify-content: center;
 }
 
 .services {
   position: absolute;
-  width: 100%;
+  width: 1190px;
   height: 50px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -363,13 +358,13 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   justify-content: end;
-  grid-area: A;
 }
 
 .dizain1 {
   position: absolute;
-  width: 1184px;
+  width: 1190px;
   height: 174px;
+  margin-top: 50px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -378,13 +373,15 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   letter-spacing: 0.35em;
-  grid-area: B;
 }
 
-.project1 {
+
+
+.ph {
+  
+  width: 1190px;
+  height: 650px;
   position: absolute;
-  width: 583px;
-  height: 174px;
   margin-top: 100px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -392,33 +389,28 @@ line-height: 104.6%;
   font-size: 128px;
   line-height: 174px;
   display: flex;
-  align-items: center;
+  justify-content: start;
   letter-spacing: 0.11em;
-  grid-area: C;
 }
 
 .photo1 {
-  width: 500px;
-  height: 289px;
-  margin-top: 230px;
-  background-size: 500px 289px;
+  width: 550px;
+  height: 350px;
+  margin-top: 400px;
+  background-size: 550px 350px;
   background-image: url("images/diz_project.jpg");
-  grid-area: D;
+  position: absolute;
+  margin-top: 300px;
 }
 
 .projectText {
-  grid-area: E;
   position: absolute;
   width: 590px;
-  height: 363px;
-  margin-top: 230px;
+  height: 500px;
+  margin-top: 290px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 33px;
-  display: flex;
-  align-items: center;
-  text-align: right;
-
 }
