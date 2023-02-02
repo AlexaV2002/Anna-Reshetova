@@ -139,7 +139,7 @@ body {
 }
 
 .aboutText {
-  width: 708px;
+  width: 750px;
   height: 770px;
   font-family: "Open Sans";
   font-style: normal;
@@ -407,10 +407,10 @@ line-height: 104.6%;
   position: absolute;
   width: 590px;
   height: 500px;
-  margin-top: 290px;
+  margin-top: 235px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  font-size: 32px;
-  line-height: 33px;
+  font-size: 24px;
+  line-height: 213.6%;
 }
