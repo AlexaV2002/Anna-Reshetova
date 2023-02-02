@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;600&display=swap");
+@import "nullstyle.css";
+
+body {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.navMenu {
+  position: absolute;
+  width: 1186px;
+  height: 80px;
+  left: 124px;
+  top: 156px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  overflow: auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.navMenu a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 150px;
+  height: 33px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
+}
+
+.navMenu a:hover {
+  color: #f52525;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 900px 900px 100px;
+
+  width: 80%;
+  justify-items: center;
+  grid-template-areas:
+    "A"
+    "B"
+    "C"
+    "D";
+}
+
+.block1 {
+  position: absolute;
+  width: 80%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  grid-area: A;
+}
+
+.dizain {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  letter-spacing: 0.3em;
+  position: absolute;
+  width: 1190px;
+  height: 174px;
+  top: 294px;
+}
+
+.stud {
+  position: absolute;
+  width: 1190px;
+  height: 174px;
+  top: 468px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  position: absolute;
+  width: 1090px;
+  height: 51px;
+  top: 575px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  letter-spacing: 0.2em;
+}
+
+.block2 {
+  position: absolute;
+  width: 80%;
+  height: 850px;
+  top: 930px;
+  grid-area: B;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  border: solid;
+}
+
+.about{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 104.6%;
+  margin-bottom: 30px;
+  width: 708px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+}
+
+.aboutText {
+  width: 708px;
+  height: 770px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 213.6%;
+  text-align: center;
+  top: 115px;
+  border: solid;
+}
+
+.photo {
+  width: 444px;
+  height: 684px;
+  margin-top: 90px;
+  background-size: 444px 684px;
+  background-image: url("images/about.jpg");
+}
+
+.block3 {
+  position: absolute;
+  width: 100%;
+  height: 910px;
+  top: 1860px;
+  grid-area: C;
+  background-color: #0D0D0D;
+
+}
+
+.project {
+  position: absolute;
+  width: 100%;
+  height: 184px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 104.6%;
+  color: #0D0D0D;
+}
+
+
+
+
+.swiper-container { 
+  overflow: hidden;
+  width: 100%;
+  height: 915px;
+  transition: all .6s ease;
+}
+.swiper-container.swiper-container-coverflow {
+  padding: 2% 0 calc(2% + 30px) 0;
+}
+.swiper-container:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-next {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.swiper-slide .swiper-content {
+  position: absolute;
+  bottom: 4%;
+  left: 2%;
+  max-width: 70%;
+  padding: 10px 16px;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 104.6%; 
+  background: rgba(0, 0, 0, 0.6);
+}
+.swiper-title .swiper-content {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 30px;
+  line-height: 104.6%;
+  display: block;
+}
+.swiper-slide .swiper-content .swiper-caption {
+  display: block;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.swiper-button {
+  width: 44px;
+  opacity: 0;
+  visibility: hidden;
+}
+.swiper-button-prev {
+  transform: translateX(50px);
+}
+.swiper-button-next {
+  transform: translateX(-50px);
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+  bottom: 10px;
+  position: relative;
+  width: 12px;
+
+  height: 12px;
+  background-color: #ffffff;
+  opacity: .5;
+  transition: all .3s ease; 
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:hover, 
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+      bottom: 4px;
+  }
+  .swiper-slide .swiper-content .swiper-title {
+      font-size: 22px;
+  }
+  .swiper-slide .swiper-content .swiper-caption {
+      font-size: 13px;
+  }
+}
+
+.border-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 0 0 40px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .4);
+  background: none;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 104.6%;
+}
+.border-button:before, .border-button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.border-button:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+.border-button:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+}
+.border-button:hover:before, 
+.border-button:hover:after {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.border-button:hover:before {
+  transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+.border-button:hover:after {
+  transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+}
+.border-button:hover {
+  background: rgba(255, 255, 255, .2);
+}
+
+.block4{
+  position: absolute;
+  border: solid;
+  width: 80%;
+  height: 850px;
+  top: 3000px;
+  grid-area: D;
+  display: grid;
+  grid-template-areas:
+   "A A A A A"
+   "B B B B B"
+   "C C E E E"
+   "D D E E E";
+
+}
+
+.services {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 104.6%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border: solid;
+  grid-area: A;
+}
+
+.dizain1 {
+  position: absolute;
+  width: 1184px;
+  height: 174px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.35em;
+  border: solid;
+  grid-area: B;
+}
+
+.project1 {
+  position: absolute;
+  width: 583px;
+  height: 174px;
+  margin-top: 100px;
+  border: solid;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.11em;
+  grid-area: C;
+}
+
+.photo1 {
+  width: 500px;
+  height: 289px;
+  margin-top: 230px;
+  background-size: 500px 289px;
+  background-image: url("images/diz_project.jpg");
+  grid-area: D;
+}
+
+.projectText {
+  grid-area: E;
+  position: absolute;
+  width: 590px;
+  height: 363px;
+  margin-top: 230px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  border: solid;
+}
