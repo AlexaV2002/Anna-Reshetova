@@ -122,7 +122,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 100px;
-  border: solid;
 }
 
 .about{
@@ -137,7 +136,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid;
 }
 
 .aboutText {
@@ -150,7 +148,6 @@ body {
   line-height: 213.6%;
   text-align: center;
   top: 115px;
-  border: solid;
 }
 
 .photo {
@@ -341,7 +338,6 @@ line-height: 104.6%;
 
 .block4{
   position: absolute;
-  border: solid;
   width: 80%;
   height: 850px;
   top: 3000px;
@@ -367,7 +363,6 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   justify-content: end;
-  border: solid;
   grid-area: A;
 }
 
@@ -383,7 +378,6 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   letter-spacing: 0.35em;
-  border: solid;
   grid-area: B;
 }
 
@@ -392,7 +386,6 @@ line-height: 104.6%;
   width: 583px;
   height: 174px;
   margin-top: 100px;
-  border: solid;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -427,5 +420,5 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   text-align: right;
-  border: solid;
+
 }
