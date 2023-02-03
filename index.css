@@ -344,7 +344,7 @@ line-height: 104.6%;
   grid-area: D;
   display: flex;
   justify-content: center;
-  border: solid;
+  
 }
 
 .services {
@@ -359,7 +359,7 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   justify-content: end;
-  border: solid;
+  
 }
 
 .dizain1 {
@@ -375,13 +375,13 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   letter-spacing: 0.35em;
-  border: solid;
+  
 }
 
 
 
 .ph {
-  border: solid;
+  
   width: 1190px;
   height: 650px;
   position: absolute;
@@ -419,7 +419,7 @@ line-height: 104.6%;
 }
 
 .kollaj {
-  border: solid;
+  
   position: absolute;
   width: 1190px;
   height: 1000px;
@@ -438,13 +438,13 @@ line-height: 104.6%;
   align-items: center;
   text-align: center;
   letter-spacing: 0.31em;
-  border: solid;
+  
 }
 .project2{
   position: absolute;
   width: 589px;
   height: 705px;
-  border: solid;
+  
   top: 174px;
   right: 0;
 }
@@ -453,7 +453,7 @@ line-height: 104.6%;
   position: absolute;
 width: 589px;
 height: 174px;
-border: solid;
+
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -471,7 +471,7 @@ font-weight: 300;
 font-size: 24px;
 line-height: 171%;
 /* or 41px */
-border: solid;
+
 margin-top: 174px;
 text-align: right;
 letter-spacing: 0.11em;
@@ -485,7 +485,7 @@ letter-spacing: 0.11em;
 }
 
 .tech {
-  border: solid;
+  
   position: absolute;
   width: 1190px;
   height: 1000px;
@@ -511,7 +511,7 @@ letter-spacing: 0.205em;
   position: absolute;
   width: 589px;
   height: 750px;
-  border: solid;
+  
   top: 174px;
 }
 
@@ -555,3 +555,202 @@ letter-spacing: 0.11em;
   right: 0;
 }
 
+.plan {
+  
+  position: absolute;
+  width: 1190px;
+  height: 1100px;
+  top: 3500px;
+}
+
+.plan1 {
+  position: absolute;
+width: 1190px;
+height: 131px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 131px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.145em;
+}
+
+.resh{
+  position: absolute;
+  width: 720px;
+  height: 1100px;
+  
+  right: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 174px;
+  text-align: right;
+  letter-spacing: 0.145em;
+}
+
+.photo5 {
+  width: 720px;
+  height: 700px;
+  margin-top: -100px;
+  background-size: 720px 700px;
+  background-image: url("images/plan.png");
+  position: absolute;
+}
+
+.planText{
+  position: absolute;
+width: 408px;
+height: 396px;
+top: 150px;
+left: 40px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.145em;
+}
+
+.nadzor {
+  
+  position: absolute;
+  width: 1190px;
+  height: 800px;
+  top: 4900px;
+}
+
+.author {
+  position: absolute;
+  width: 1184px;
+  height: 174px;
+
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.35em;
+}
+
+.nadzor1 {
+  position: absolute;
+  width: 609px;
+  height: 174px;
+  top: 174px;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.11em;
+}
+
+.text1 {
+  position: absolute;
+  width: 580px;
+  height: 210px;
+  top: 400px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 176.18%;
+  /* or 42px */
+  display: flex;
+  align-items: center;
+}
+
+.text2 {
+  position: absolute;
+width: 1166px;
+height: 168px;
+
+top: 592px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 176.18%;
+/* or 42px */
+
+display: flex;
+align-items: center;
+}
+
+.photo6 {
+  width: 590px;
+  height: 450px;
+  right: 0;
+  top: 174px;
+  background-size: 590px 450px;
+  background-image: url("images/nadzor.png");
+  position: absolute;
+}
+
+.sopr {
+  
+  position: absolute;
+  width: 1190px;
+  height: 800px;
+  top: 6000px;
+}
+
+.sopr1 {
+  position: absolute;
+  width: 1184px;
+  height: 169px;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 176.18%;
+  /* or 169px */
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.255em;
+}
+
+.text3 {
+  position: absolute;
+width: 607px;
+height: 561px;
+right: 0;
+top: 169px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 176.18%;
+/* or 42px */
+display: flex;
+align-items: center;
+text-align: right;
+}
+
+.photo7 {
+  width: 446px;
+  height: 561px;
+  top: 174px;
+  left: auto;
+  left: 70px;
+  background-size: 446px 561px;
+  background-image: url("images/sopr.jpg");
+  position: absolute;
+}
