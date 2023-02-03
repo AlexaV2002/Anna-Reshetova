@@ -339,11 +339,12 @@ line-height: 104.6%;
 .block4{
   position: absolute;
   width: 80%;
-  height: 850px;
+  height: 9000px;
   top: 3000px;
   grid-area: D;
   display: flex;
   justify-content: center;
+  border: solid;
 }
 
 .services {
@@ -358,6 +359,7 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   justify-content: end;
+  border: solid;
 }
 
 .dizain1 {
@@ -373,12 +375,13 @@ line-height: 104.6%;
   display: flex;
   align-items: center;
   letter-spacing: 0.35em;
+  border: solid;
 }
 
 
 
 .ph {
-  
+  border: solid;
   width: 1190px;
   height: 650px;
   position: absolute;
@@ -414,3 +417,141 @@ line-height: 104.6%;
   font-size: 24px;
   line-height: 213.6%;
 }
+
+.kollaj {
+  border: solid;
+  position: absolute;
+  width: 1190px;
+  height: 1000px;
+  top: 1000px;
+}
+.kol {
+  position: absolute;
+  width: 1190px;
+  height: 174px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 174px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.31em;
+  border: solid;
+}
+.project2{
+  position: absolute;
+  width: 589px;
+  height: 705px;
+  border: solid;
+  top: 174px;
+  right: 0;
+}
+
+.project3{
+  position: absolute;
+width: 589px;
+height: 174px;
+border: solid;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 174px;
+display: flex;
+align-items: center;
+letter-spacing: 0.11em;
+}
+
+.kolText {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 171%;
+/* or 41px */
+border: solid;
+margin-top: 174px;
+text-align: right;
+letter-spacing: 0.11em;
+}
+.photo3 {
+  width: 550px;
+  height: 600px;
+  margin-top: 240px;
+  background-size: 550px 600px;
+  background-image: url("images/collage.jpg");
+}
+
+.tech {
+  border: solid;
+  position: absolute;
+  width: 1190px;
+  height: 1000px;
+  top: 2250px;
+}
+
+.tech1 {
+  position: absolute;
+width: 1190px;
+height: 174px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 174px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.205em;
+}
+
+.project4{
+  position: absolute;
+  width: 589px;
+  height: 750px;
+  border: solid;
+  top: 174px;
+}
+
+.project5 {
+position: absolute;
+width: 606px;
+top: -174px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 174px;
+display: flex;
+letter-spacing: 0.11em;
+}
+
+.techText {
+  position: absolute;
+width: 575px;
+height: 429px;
+top: 174px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.11em;
+}
+
+.photo4 {
+  width: 500px;
+  height: 700px;
+  margin-top: 200px;
+  background-size: 500px 700px;
+  background-image: url("images/chert.png");
+  position: absolute;
+  right: 0;
+}
+
