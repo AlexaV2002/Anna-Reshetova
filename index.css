@@ -1064,33 +1064,59 @@ line-height: 33px;
   grid-area: F;
   background: #7C7C7C;
   display: flex;
+  justify-content: space-between;
 }
 
 .foot {
-  border: solid;
+  
   width: 390px;
-  height: 250px;
+  height: 270px;
 }
 
 .logo {
   width: 390px;
-  height: 250px;
-  margin-top: -20px;
+  height: 273px;
   background-size: 390px 273px;
   background-image: url("images/logo.png");
   position: absolute;
+
 }
 
 .contacts {
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 104.6%;
-/* or 38px */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 104.6%;
+  /* or 38px */
+  color: #F4F4F4;
+  
+  right: 0;
+  width: 800px;
+}
 
-display: flex;
-align-items: center;
-text-align: center;
-color: #F4F4F4;
+.phone {
+  
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+.social {
+  padding-left: 270px;
+  padding-right: 270px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.email {
+  
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 70px;
+  padding-right: 70px;
+  align-items: center;
+  text-align: center;
 }
