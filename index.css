@@ -295,10 +295,10 @@ body {
   border: 1px solid rgba(255, 255, 255, .4);
   background: none;
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 104.6%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 104.6%;
 }
 .border-button:before, .border-button:after {
   content: "";
@@ -1119,4 +1119,10 @@ line-height: 33px;
   padding-right: 70px;
   align-items: center;
   text-align: center;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+  border: solid;
 }
