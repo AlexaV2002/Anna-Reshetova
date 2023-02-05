@@ -10,7 +10,7 @@ body {
 
 .navMenu {
   position: absolute;
-  width: 1186px;
+  width: 1519px;
   height: 80px;
   left: 124px;
   top: 156px;
@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   overflow: auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -34,15 +34,15 @@ body {
   text-decoration: none;
   color: black;
   display: inline-block;
-  width: 150px;
-  height: 33px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
   justify-content: center;
 }
 
 .navMenu a:hover {
-  color: #f52525;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 0.5s;
+  
 }
 
 .container {
@@ -1123,5 +1123,11 @@ line-height: 33px;
 a.svg {
   position: relative;
   display: inline-block;
-  border: solid;
+}
+
+a.svg:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
 }
