@@ -1170,10 +1170,18 @@ a.svg:hover {
 }
 
 @media screen and (min-width:700px) and (max-width:1279px) {
+  
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     display: flex;
     justify-content: center;
     width: 150%;
+    padding: 0;
+    margin: 0;
+}
   }
   .container {
     width: 150%;
@@ -1219,6 +1227,7 @@ a.svg:hover {
   }
   .block3 {
     top: 2560px;
+    width: 150%;
   }
   .block4 {
     top: 3760px;
@@ -1386,5 +1395,9 @@ a.svg:hover {
     width: 100%;
     margin-top: 650px;
     font-size: 16px;
+  }
+
+  .block5 {
+    
   }
 }
