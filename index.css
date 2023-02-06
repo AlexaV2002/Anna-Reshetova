@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;600&display=swap");
 @import "nullstyle.css";
 
-body {
-  display: flex;
-  justify-content: center;
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .navMenu {
   position: absolute;
   width: 1190px;
   height: 80px;
-
   top: 156px;
   display: flex;
   align-items: center;
@@ -42,6 +45,7 @@ body {
 .container {
   display: grid;
   width: 80%;
+  height: 100%;
   justify-items: center;
   word-break: break-all;
   grid-template-areas:
@@ -1167,16 +1171,16 @@ a.svg:hover {
 
 @media screen and (min-width:700px) and (max-width:1279px) {
   body {
-    width: 98%;
     display: flex;
     justify-content: center;
+    width: 150%;
   }
-
   .container {
-    width: 80%;
+    width: 150%;
+    height: 100%;
   }
   .navMenu {
-    width: 100%;
+    width: 120%;
     height: 80px;
     top: 100px;
   }
