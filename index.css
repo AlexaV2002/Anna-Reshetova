@@ -1386,4 +1386,33 @@ a.svg:hover {
   .block5 {
     width: 100%;
   }
+  .block6 {
+    width: 700px;
+    margin-bottom: 0;
+  }
+  .contacts {
+    width: 400px;
+    font-size: 16px;
+    height: 200px;
+    display: block;
+    height: 273px;
+    border: solid;
+    
+  }
+
+  .phone {
+    padding-left: 0;
+  padding-right: 0;
+  }
+  .social {
+    padding-left: 0;
+  padding-right: 0;
+  }
+  .email object {
+    display: none;
+  }
+  .email {
+    padding-left: 0;
+  padding-right: 0;
+  }
 }
