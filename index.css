@@ -2,10 +2,8 @@
 @import "nullstyle.css";
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  word-wrap: break-word;
+  height: 100%;
 }
 
 .navMenu {
@@ -41,7 +39,7 @@ body {
 
 .container {
   display: grid;
-  width: 80%;
+  width: 100%;
   height: 100%;
   justify-items: center;
   word-break: break-all;
@@ -1167,19 +1165,8 @@ a.svg:hover {
 }
 
 @media screen and (min-width:700px) and (max-width:1279px) {
-  
-  * {
-    box-sizing: border-box;
-  }
 
-  body {
-    width: 100%;
 
-  }
-  .container {
-    width: 100%;
-    height: 100%;
-  }
   .navMenu {
     width: 100%;
     height: 80px;
@@ -1187,6 +1174,12 @@ a.svg:hover {
   }
   .navMenu a {
     font-size: 16px;
+  }
+  .container {
+    display: grid;
+    width: 100%;
+
+    border: solid;
   }
   .dizain {
     font-size: 96px;
