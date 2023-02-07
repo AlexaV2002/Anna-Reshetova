@@ -1173,15 +1173,15 @@ a.svg:hover {
   }
 
   body {
-    width: 150%;
+    width: 100%;
 
   }
   .container {
-    width: 150%;
+    width: 100%;
     height: 100%;
   }
   .navMenu {
-    width: 120%;
+    width: 100%;
     height: 80px;
     top: 100px;
   }
@@ -1220,7 +1220,7 @@ a.svg:hover {
   }
   .block3 {
     top: 2560px;
-    width: 150%;
+    width: 100%;
   }
   .block4 {
     top: 3760px;
@@ -1391,6 +1391,6 @@ a.svg:hover {
   }
 
   .block5 {
-    width: 150%;
+    width: 100%;
   }
 }
