@@ -1,0 +1,38 @@
+
+.heading{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 174px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.3em;
+}
+@media screen and (max-width: 576px){
+    .heading {
+        font-size: 40px;
+        border:solid;
+    }
+    .gallery {
+        margin-top: 49px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 800px){
+    .heading {
+        font-size: 96px;
+    }
+}
+
+.end {
+    color: red;
+}
+
+.gallery {
+    margin-top: 89px;
+}
+
+

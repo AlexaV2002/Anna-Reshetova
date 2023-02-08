@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;600&display=swap");
 @import "nullstyle.css";
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   word-wrap: break-word;
   height: 100%;
+
 }
 
 .navMenu {
@@ -1391,28 +1395,28 @@ a.svg:hover {
     margin-bottom: 0;
   }
   .contacts {
-    width: 400px;
+    width: 390px;
     font-size: 16px;
     height: 200px;
     display: block;
     height: 273px;
     border: solid;
-    
+    justify-content: center;
   }
 
   .phone {
-    padding-left: 0;
-  padding-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .social {
-    padding-left: 0;
-  padding-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .email object {
     display: none;
   }
   .email {
-    padding-left: 0;
-  padding-right: 0;
+    padding-left: 50px;
+  padding-right: 50px;
   }
 }
