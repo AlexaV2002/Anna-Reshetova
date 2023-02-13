@@ -747,7 +747,6 @@ align-items: center;
   width: 1190px;
   height: 800px;
   top: 6000px;
-  
 }
 
 .sopr1 {
@@ -799,7 +798,7 @@ justify-content: end;
   transition: 1s; /* Время изменения цвета изображения */
 }
 
-.photo7:hover {
+.photo7:hover{
   filter: grayscale(0); /* Цветное изображение при наведении */
 }
 
@@ -899,12 +898,6 @@ justify-content: end;
   background-size: 340px 250px;
   background-image: url("images/remont.png");
   position: absolute;
-  filter: grayscale(1); /* Черно-белый фильтр для изображения */
-  transition: 1s; /* Время изменения цвета изображения */
-}
-
-.photo8:hover{
-  filter: grayscale(0); /* Цветное изображение при наведении */
 }
 
 .box
@@ -1110,66 +1103,58 @@ line-height: 33px;
 
 .block6 {
   position: absolute;
-  width: 1190px;
-  height: 273px;
+  width: 100%;
+  height: 150px;
   top: 11000px;
   grid-area: F;
   background: #7C7C7C;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+align-items: END;
+
 }
 
 .foot {
-  
-  width: 390px;
-  height: 270px;
-}
-
-.logo {
-  width: 390px;
-  height: 273px;
-  background-size: 390px 273px;
-  background-image: url("images/logo.png");
-  position: absolute;
+  display: flex;
+  width: 300px;
+  height: 100%;
 
 }
 
 .contacts {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
+  font-weight: 300;
+  font-size: 16px;
   line-height: 104.6%;
   /* or 38px */
   color: #F4F4F4;
-  
-  right: 0;
-  width: 800px;
+  display: grid;
+
 }
 
 .phone {
-  
+
   display: flex;
-  justify-content: space-evenly;
-  padding-left: 220px;
-  padding-right: 220px;
+  justify-content: center;
+
 }
 
 .social {
-  padding-left: 270px;
-  padding-right: 270px;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
+
 }
 
 .email {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 70px;
-  padding-right: 70px;
+
   align-items: center;
   text-align: center;
+
 }
 
 a.svg {
@@ -1445,33 +1430,5 @@ a.svg:hover {
   .block5 {
     width: 100%;
   }
-  .block6 {
-    width: 700px;
-    margin-bottom: 0;
-  }
-  .contacts {
-    width: 390px;
-    font-size: 16px;
-    height: 200px;
-    display: block;
-    height: 273px;
-    border: solid;
-    justify-content: center;
-  }
-
-  .phone {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .social {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .email object {
-    display: none;
-  }
-  .email {
-    padding-left: 50px;
-  padding-right: 50px;
-  }
+  
 }
