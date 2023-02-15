@@ -1435,9 +1435,14 @@ a.svg:hover {
   
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
+
+  .body {
+    margin-left: 500px;
+  }
+
   .navMenu {
-    margin-left: 380px;
+    margin-left: 400px;
     width: 736px;
     height: 80px;
     top: 30px;
@@ -1473,6 +1478,39 @@ a.svg:hover {
     font-size: 30px;
     
   }
+
+  .block2 {
+    margin-left: 500px;
+    /* font-size: 100px; */
+  }
+
+  .block2 .aboutText {
+    width: 736px;
+    height: 414px;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 100;
+    /* word-spacing: 13px; */
+    word-break: break-all;
+  }
+
+  .block2 .photo {
+    visibility: hidden;
+  }
+
+  .block3 {
+    margin-top: 700px;
+    margin-left: 400px;
+  }
+
+  .block4 {
+    margin-top: 700px;
+  }
+
+  .block4 {
+    margin-left: 1000px;
+  }
+
 }
 
 @media screen and (max-width: 998px) {
